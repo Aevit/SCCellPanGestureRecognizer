@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E188B6771ACD4C0100361A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B6761ACD4C0100361A29 /* main.m */; };
+		E188B67A1ACD4C0100361A29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B6791ACD4C0100361A29 /* AppDelegate.m */; };
+		E188B67D1ACD4C0100361A29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B67C1ACD4C0100361A29 /* ViewController.m */; };
+		E188B6801ACD4C0100361A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E188B67E1ACD4C0100361A29 /* Main.storyboard */; };
+		E188B6821ACD4C0100361A29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E188B6811ACD4C0100361A29 /* Images.xcassets */; };
+		E188B6851ACD4C0100361A29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E188B6831ACD4C0100361A29 /* LaunchScreen.xib */; };
+		E188B6911ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B6901ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests.m */; };
+		E188B6A11ACD4C8600361A29 /* SCCellPanBaseGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B69C1ACD4C8600361A29 /* SCCellPanBaseGesture.m */; };
+		E188B6A21ACD4C8600361A29 /* SCCellPanHorizonGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B69E1ACD4C8600361A29 /* SCCellPanHorizonGesture.m */; };
+		E188B6A31ACD4C8600361A29 /* SCCellPanRotateGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B6A01ACD4C8600361A29 /* SCCellPanRotateGesture.m */; };
+		E188B6A91ACD4DA900361A29 /* icon_list_del@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E188B6A51ACD4DA900361A29 /* icon_list_del@2x.png */; };
+		E188B6AA1ACD4DA900361A29 /* icon_list_del@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E188B6A61ACD4DA900361A29 /* icon_list_del@3x.png */; };
+		E188B6AB1ACD4DA900361A29 /* icon_list_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E188B6A71ACD4DA900361A29 /* icon_list_ok@2x.png */; };
+		E188B6AC1ACD4DA900361A29 /* icon_list_ok@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E188B6A81ACD4DA900361A29 /* icon_list_ok@3x.png */; };
+		E188B6AF1ACD4EF700361A29 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E188B6AE1ACD4EF700361A29 /* DemoTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E188B68B1ACD4C0100361A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E188B6691ACD4C0100361A29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E188B6701ACD4C0100361A29;
+			remoteInfo = SCCellPanGestureRecognizerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E188B6711ACD4C0100361A29 /* SCCellPanGestureRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCCellPanGestureRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E188B6751ACD4C0100361A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E188B6761ACD4C0100361A29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E188B6781ACD4C0100361A29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E188B6791ACD4C0100361A29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E188B67B1ACD4C0100361A29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E188B67C1ACD4C0100361A29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E188B67F1ACD4C0100361A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E188B6811ACD4C0100361A29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E188B6841ACD4C0100361A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E188B68A1ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCCellPanGestureRecognizerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E188B68F1ACD4C0100361A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E188B6901ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCellPanGestureRecognizerDemoTests.m; sourceTree = "<group>"; };
+		E188B69B1ACD4C8600361A29 /* SCCellPanBaseGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCellPanBaseGesture.h; sourceTree = "<group>"; };
+		E188B69C1ACD4C8600361A29 /* SCCellPanBaseGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCellPanBaseGesture.m; sourceTree = "<group>"; };
+		E188B69D1ACD4C8600361A29 /* SCCellPanHorizonGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCellPanHorizonGesture.h; sourceTree = "<group>"; };
+		E188B69E1ACD4C8600361A29 /* SCCellPanHorizonGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCellPanHorizonGesture.m; sourceTree = "<group>"; };
+		E188B69F1ACD4C8600361A29 /* SCCellPanRotateGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCellPanRotateGesture.h; sourceTree = "<group>"; };
+		E188B6A01ACD4C8600361A29 /* SCCellPanRotateGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCellPanRotateGesture.m; sourceTree = "<group>"; };
+		E188B6A51ACD4DA900361A29 /* icon_list_del@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_list_del@2x.png"; sourceTree = "<group>"; };
+		E188B6A61ACD4DA900361A29 /* icon_list_del@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_list_del@3x.png"; sourceTree = "<group>"; };
+		E188B6A71ACD4DA900361A29 /* icon_list_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_list_ok@2x.png"; sourceTree = "<group>"; };
+		E188B6A81ACD4DA900361A29 /* icon_list_ok@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_list_ok@3x.png"; sourceTree = "<group>"; };
+		E188B6AD1ACD4EF700361A29 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		E188B6AE1ACD4EF700361A29 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E188B66E1ACD4C0100361A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188B6871ACD4C0100361A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E188B6681ACD4C0100361A29 = {
+			isa = PBXGroup;
+			children = (
+				E188B6731ACD4C0100361A29 /* SCCellPanGestureRecognizerDemo */,
+				E188B68D1ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests */,
+				E188B6721ACD4C0100361A29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E188B6721ACD4C0100361A29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E188B6711ACD4C0100361A29 /* SCCellPanGestureRecognizerDemo.app */,
+				E188B68A1ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E188B6731ACD4C0100361A29 /* SCCellPanGestureRecognizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E188B69A1ACD4C8600361A29 /* SCCellPanGestureRecognizer */,
+				E188B6781ACD4C0100361A29 /* AppDelegate.h */,
+				E188B6791ACD4C0100361A29 /* AppDelegate.m */,
+				E188B67B1ACD4C0100361A29 /* ViewController.h */,
+				E188B67C1ACD4C0100361A29 /* ViewController.m */,
+				E188B6AD1ACD4EF700361A29 /* DemoTableViewController.h */,
+				E188B6AE1ACD4EF700361A29 /* DemoTableViewController.m */,
+				E188B67E1ACD4C0100361A29 /* Main.storyboard */,
+				E188B6811ACD4C0100361A29 /* Images.xcassets */,
+				E188B6831ACD4C0100361A29 /* LaunchScreen.xib */,
+				E188B6741ACD4C0100361A29 /* Supporting Files */,
+			);
+			path = SCCellPanGestureRecognizerDemo;
+			sourceTree = "<group>";
+		};
+		E188B6741ACD4C0100361A29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E188B6751ACD4C0100361A29 /* Info.plist */,
+				E188B6761ACD4C0100361A29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E188B68D1ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E188B6901ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests.m */,
+				E188B68E1ACD4C0100361A29 /* Supporting Files */,
+			);
+			path = SCCellPanGestureRecognizerDemoTests;
+			sourceTree = "<group>";
+		};
+		E188B68E1ACD4C0100361A29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E188B68F1ACD4C0100361A29 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E188B69A1ACD4C8600361A29 /* SCCellPanGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				E188B6A41ACD4DA900361A29 /* images */,
+				E188B69B1ACD4C8600361A29 /* SCCellPanBaseGesture.h */,
+				E188B69C1ACD4C8600361A29 /* SCCellPanBaseGesture.m */,
+				E188B69D1ACD4C8600361A29 /* SCCellPanHorizonGesture.h */,
+				E188B69E1ACD4C8600361A29 /* SCCellPanHorizonGesture.m */,
+				E188B69F1ACD4C8600361A29 /* SCCellPanRotateGesture.h */,
+				E188B6A01ACD4C8600361A29 /* SCCellPanRotateGesture.m */,
+			);
+			path = SCCellPanGestureRecognizer;
+			sourceTree = SOURCE_ROOT;
+		};
+		E188B6A41ACD4DA900361A29 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E188B6A51ACD4DA900361A29 /* icon_list_del@2x.png */,
+				E188B6A61ACD4DA900361A29 /* icon_list_del@3x.png */,
+				E188B6A71ACD4DA900361A29 /* icon_list_ok@2x.png */,
+				E188B6A81ACD4DA900361A29 /* icon_list_ok@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E188B6701ACD4C0100361A29 /* SCCellPanGestureRecognizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E188B6941ACD4C0100361A29 /* Build configuration list for PBXNativeTarget "SCCellPanGestureRecognizerDemo" */;
+			buildPhases = (
+				E188B66D1ACD4C0100361A29 /* Sources */,
+				E188B66E1ACD4C0100361A29 /* Frameworks */,
+				E188B66F1ACD4C0100361A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCCellPanGestureRecognizerDemo;
+			productName = SCCellPanGestureRecognizerDemo;
+			productReference = E188B6711ACD4C0100361A29 /* SCCellPanGestureRecognizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E188B6891ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E188B6971ACD4C0100361A29 /* Build configuration list for PBXNativeTarget "SCCellPanGestureRecognizerDemoTests" */;
+			buildPhases = (
+				E188B6861ACD4C0100361A29 /* Sources */,
+				E188B6871ACD4C0100361A29 /* Frameworks */,
+				E188B6881ACD4C0100361A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E188B68C1ACD4C0100361A29 /* PBXTargetDependency */,
+			);
+			name = SCCellPanGestureRecognizerDemoTests;
+			productName = SCCellPanGestureRecognizerDemoTests;
+			productReference = E188B68A1ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E188B6691ACD4C0100361A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Aevit;
+				TargetAttributes = {
+					E188B6701ACD4C0100361A29 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E188B6891ACD4C0100361A29 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E188B6701ACD4C0100361A29;
+					};
+				};
+			};
+			buildConfigurationList = E188B66C1ACD4C0100361A29 /* Build configuration list for PBXProject "SCCellPanGestureRecognizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E188B6681ACD4C0100361A29;
+			productRefGroup = E188B6721ACD4C0100361A29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E188B6701ACD4C0100361A29 /* SCCellPanGestureRecognizerDemo */,
+				E188B6891ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E188B66F1ACD4C0100361A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E188B6801ACD4C0100361A29 /* Main.storyboard in Resources */,
+				E188B6A91ACD4DA900361A29 /* icon_list_del@2x.png in Resources */,
+				E188B6AC1ACD4DA900361A29 /* icon_list_ok@3x.png in Resources */,
+				E188B6851ACD4C0100361A29 /* LaunchScreen.xib in Resources */,
+				E188B6AB1ACD4DA900361A29 /* icon_list_ok@2x.png in Resources */,
+				E188B6821ACD4C0100361A29 /* Images.xcassets in Resources */,
+				E188B6AA1ACD4DA900361A29 /* icon_list_del@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188B6881ACD4C0100361A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E188B66D1ACD4C0100361A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E188B6A21ACD4C8600361A29 /* SCCellPanHorizonGesture.m in Sources */,
+				E188B6A11ACD4C8600361A29 /* SCCellPanBaseGesture.m in Sources */,
+				E188B6A31ACD4C8600361A29 /* SCCellPanRotateGesture.m in Sources */,
+				E188B67D1ACD4C0100361A29 /* ViewController.m in Sources */,
+				E188B6AF1ACD4EF700361A29 /* DemoTableViewController.m in Sources */,
+				E188B67A1ACD4C0100361A29 /* AppDelegate.m in Sources */,
+				E188B6771ACD4C0100361A29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E188B6861ACD4C0100361A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E188B6911ACD4C0100361A29 /* SCCellPanGestureRecognizerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E188B68C1ACD4C0100361A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E188B6701ACD4C0100361A29 /* SCCellPanGestureRecognizerDemo */;
+			targetProxy = E188B68B1ACD4C0100361A29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E188B67E1ACD4C0100361A29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E188B67F1ACD4C0100361A29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E188B6831ACD4C0100361A29 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E188B6841ACD4C0100361A29 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E188B6921ACD4C0100361A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E188B6931ACD4C0100361A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E188B6951ACD4C0100361A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCCellPanGestureRecognizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E188B6961ACD4C0100361A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCCellPanGestureRecognizerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E188B6981ACD4C0100361A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCCellPanGestureRecognizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCCellPanGestureRecognizerDemo.app/SCCellPanGestureRecognizerDemo";
+			};
+			name = Debug;
+		};
+		E188B6991ACD4C0100361A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCCellPanGestureRecognizerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCCellPanGestureRecognizerDemo.app/SCCellPanGestureRecognizerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E188B66C1ACD4C0100361A29 /* Build configuration list for PBXProject "SCCellPanGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E188B6921ACD4C0100361A29 /* Debug */,
+				E188B6931ACD4C0100361A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E188B6941ACD4C0100361A29 /* Build configuration list for PBXNativeTarget "SCCellPanGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E188B6951ACD4C0100361A29 /* Debug */,
+				E188B6961ACD4C0100361A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E188B6971ACD4C0100361A29 /* Build configuration list for PBXNativeTarget "SCCellPanGestureRecognizerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E188B6981ACD4C0100361A29 /* Debug */,
+				E188B6991ACD4C0100361A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E188B6691ACD4C0100361A29 /* Project object */;
+}
