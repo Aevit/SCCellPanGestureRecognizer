@@ -12,9 +12,9 @@ And you can inherite from the class `SCCellPanBaseGesture` to make your own type
 
 ---
 ###How to use
-1. copy the folder `SCCellPanGestureRecognizer` to your project.
+1、copy the folder `SCCellPanGestureRecognizer` to your project.
 
-2. write the code like this:  
+2、write the code like this:  
 ```
 SCCellPanHorizonGesture *panGes = [[SCCellPanHorizonGesture alloc] initWithTableView:tableView block:^(UITableViewCell *cell, BOOL isLeft) {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"tips" message:(isLeft ? @"do sth to \"done\"" : @"do sth to \"delete\"") delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
@@ -23,7 +23,7 @@ SCCellPanHorizonGesture *panGes = [[SCCellPanHorizonGesture alloc] initWithTable
 [panGes buildLeftImgStr:@"icon_list_ok.png" rightImgStr:@"icon_list_del.png"];
 [self.view addGestureRecognizer:panGes];
 ```
-3. see more details in my demo project.
+3、see more details in my demo project.
 
 ---
 ###Thanks
