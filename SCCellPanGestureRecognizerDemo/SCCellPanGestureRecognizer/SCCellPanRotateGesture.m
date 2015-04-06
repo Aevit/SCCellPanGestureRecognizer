@@ -69,15 +69,16 @@
 
 - (void)handlePanEndedOrCancelled:(UIPanGestureRecognizer *)gesture {
     
-    if (self.translationPoint.x > 0 && self.translationPoint.x > LEFT_RIGHT_MOVE_LENGTH) {
-        // left
-        self.scCellPanResultBlock((UITableViewCell*)self.copiedCell.superview, YES);
+    if (ABS(self.translationPoint.x) > LEFT_RIGHT_MOVE_LENGTH) {
+        if (self.translationPoint.x > 0) {
+            // left
+            self.scCellPanResultBlock((UITableViewCell*)self.copiedCell.superview, YES);
+        } else if (self.translationPoint.x < 0) {
+            // right
+            self.scCellPanResultBlock((UITableViewCell*)self.copiedCell.superview, NO);
+        }
     }
     
-    if (self.translationPoint.x < 0 && self.translationPoint.x < LEFT_RIGHT_MOVE_LENGTH) {
-        // right
-        self.scCellPanResultBlock((UITableViewCell*)self.copiedCell.superview, NO);
-    }
     [super handlePanEndedOrCancelled:gesture];
 }
 
