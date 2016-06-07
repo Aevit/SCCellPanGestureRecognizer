@@ -49,7 +49,8 @@
     
     if (_panType == SCCellPanTypeHorizon) {
         SCCellPanHorizonGesture *panGes = [[SCCellPanHorizonGesture alloc] initWithTableView:tableView block:^(UITableViewCell *cell, BOOL isLeft) {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"tips" message:(isLeft ? @"do sth to \"done\"" : @"do sth to \"delete\"") delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"tips" message:(isLeft ? @"显示设置页面" : @"显示设置页面") delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+//            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"tips" message:(isLeft ? @"do sth to \"done\"" : @"do sth to \"delete\"") delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
             [alert show];
         }];
         [panGes buildLeftImgStr:@"icon_list_ok.png" rightImgStr:@"icon_list_del.png"];
@@ -57,10 +58,12 @@
         
     } else if (_panType == SCCellPanTypeRotate) {
         SCCellPanRotateGesture *panGes = [[SCCellPanRotateGesture alloc] initWithTableView:tableView block:^(UITableViewCell *cell, BOOL isLeft) {
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"tips" message:(isLeft ? @"do sth to \"done\"" : @"do sth to \"delete\"") delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"tips" message:(isLeft ? @"显示设置页面" : @"显示设置页面") delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+//            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"tips" message:(isLeft ? @"do sth to \"done\"" : @"do sth to \"delete\"") delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
             [alert show];
         }];
-        [panGes buildLeftImgStr:@"icon_list_ok.png" rightImgStr:@"icon_list_del.png"];
+//        [panGes buildLeftImgStr:@"icon_list_ok.png" rightImgStr:@"icon_list_del.png"];
+        [panGes buildLeftImgStr:@"setting_final.png" rightImgStr:@"setting_final.png"];
         [self.view addGestureRecognizer:panGes];
     }
 }
@@ -78,7 +81,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 120;
+    return 300;
 }
 
 - (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -90,7 +93,8 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.textLabel.textAlignment = NSTextAlignmentCenter;
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"Row %ld", (long)indexPath.row];
+    cell.textLabel.text = @"资讯页卡片";
+//    cell.textLabel.text = [NSString stringWithFormat:@"Row %ld", (long)indexPath.row];
     return cell;
 }
 
